@@ -1,7 +1,10 @@
 .hero {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 .hero__title {
   font-size: 44px;
+}
+.bg-custom{
+    background-color: #7952B3;
 }
