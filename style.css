@@ -1,10 +1,33 @@
 .hero {
   text-align: center;
-  padding: 30px;
 }
 .hero__title {
   font-size: 44px;
 }
-.bg-custom{
-    background-color: #7952B3;
+.hero__description {
+  font-size: 18px;
+  color: gray;
+}
+.bg-custom {
+  background-color: #7952b3;
+}
+.main {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+@media (min-width:768px){
+  .main {
+    padding: 57px;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: left;
+  }
+  .hero__title {
+    font-size: 64px;
+  }
+  .hero__description {
+    font-size: 28px;
+  }
 }
